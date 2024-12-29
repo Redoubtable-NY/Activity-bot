@@ -47,6 +47,10 @@ button{
     margin-top: 2em;
 }
 
+#button:active{
+    background-color: #E07F00;
+}
+
 /* Typography */
 
 h1{
@@ -64,20 +68,26 @@ h2{
     color: #E0E0E0;
 }
 
-
 p{
     margin: 0;
     padding: 0;
 }
 
 #placeholder-text{
-    
+    font-size: 1rem;
+    /* padding: 1em 0 0 0; */
+    color: #D6FA61;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: .125em;
+    text-align: center;
 }
 
 #activity{
     font-size: 1rem;
     /* padding: 1em 0 0 0; */
-    color: #fff;
+    color: #D6FA61;
+    /* color: #fff; */
     font-weight: 600;
     letter-spacing: .063em;
     /* margin-top: 0; */
