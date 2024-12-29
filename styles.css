@@ -1,6 +1,12 @@
 body{
     font-family: "Tomorrow", serif;
     background-color: #4C5760;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
 }
 
 section{
@@ -12,18 +18,51 @@ section{
     min-width: 300px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 h1{
     font-weight: 300;
     font-size: 2rem;
     color: #fff;
+    margin-bottom: .25em;
 }
 
 h2{
+    padding: 0;
+    margin: 0 0 1.3em 0 ;
     font-weight: 300;
     font-size: 1.5rem;
     color: #E0E0E0;
+}
+
+#idea-container{
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#activity{
+    font-size: 1rem;
+    /* padding: 1em 0 0 0; */
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .063em;
+    /* margin-top: 0; */
+    /* margin-bottom: 1.5em; */
+    text-align: center;
+    line-height: 1.5;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 button{
@@ -35,4 +74,5 @@ button{
     background-color: #FFA630;
     color: #000;
     cursor: pointer;
+    margin-top: 2em;
 }
