@@ -47,7 +47,7 @@ button{
     margin-top: 2em;
 }
 
-#button:active{
+button:active{
     background-color: #E07F00;
 }
 
