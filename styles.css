@@ -24,6 +24,15 @@ section{
     margin-bottom: auto;
 }
 
+#idea-container{
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
 /* Interface Controls */
 
 button{
@@ -55,18 +64,14 @@ h2{
     color: #E0E0E0;
 }
 
-#idea-container{
-    margin: 0;
-    padding: 0;
-    height: 10vh;
-    max-height: 60px;
-    display: flex;
-    align-items: center;
-}
 
 p{
     margin: 0;
     padding: 0;
+}
+
+#placeholder-text{
+    
 }
 
 #activity{
