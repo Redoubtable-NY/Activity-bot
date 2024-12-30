@@ -2,9 +2,11 @@ const button = document.getElementById('primary-bttn')
 const ideaContainer = document.getElementById("idea-container")
 const subtitile = document.getElementById('subtitle')
 const placeholderText = document.getElementById('placeholder-text')
+const activity = document.getElementById('activity')
 
 
 button.addEventListener("click", function() {
+    activity.innerText = ``
     subtitile.innerText = "Thinking..."
     
     function newActivityFound() {
@@ -12,7 +14,7 @@ button.addEventListener("click", function() {
     }
 
     function placeholderLoading() {
-        return placeholderText.innerHTML= "Loading..."
+        return placeholderText.innerHTML= "A new activity is on the way..."
     }
 
     setTimeout(placeholderLoading, 100)
@@ -26,9 +28,11 @@ button.addEventListener("click", function() {
             .then(response => response.json())
             .then((data) => {
                 // console.log(data)
-                ideaContainer.innerHTML = `
-                <p id="activity">${data.activity}.</p>
-                `
+                // ideaContainer.innerHTML = `
+                // <p id="activity">${data.activity}.</p>
+                // `
+                placeholderText.innerText =``
+                activity.innerText = `${data.activity}.`
             })
     }
 })
