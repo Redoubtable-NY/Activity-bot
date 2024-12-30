@@ -19,9 +19,9 @@ button.addEventListener("click", function() {
 
     setTimeout(placeholderLoading, 100)
     
-    setTimeout(newActivityFound, 1200)
+    setTimeout(newActivityFound, 1250)
 
-    setTimeout(fetchData, 1250)
+    setTimeout(fetchData, 1235)
 
     function fetchData() {
         fetch("https://apis.scrimba.com/bored/api/activity")
