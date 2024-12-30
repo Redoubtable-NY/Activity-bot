@@ -51,6 +51,12 @@ button:active{
     background-color: #E07F00;
 }
 
+button:focus-visible{           
+    outline: 3px solid #fff;
+    box-sizing: border-box; 
+    background-color: #FF950A;
+}
+
 /* Typography */
 
 h1{
